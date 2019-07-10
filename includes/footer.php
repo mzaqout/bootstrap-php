@@ -36,9 +36,19 @@ $('#datetimepicker').datetimepicker({
 
 $(document).ready( function () {
     $('.showInfo').click(function(){
+        $(this).attr('disabled','disabled');
         //var parent = $(this).parent().parent();
-        var parent = $(this).closest('tr');
-        $('.modal-body .salary').text(parent.children()[5].textContent);
+        //var parent = $(this).closest('tr');
+        setTimeout(() => {
+            var parent = $(this).closest('tr');
+            $('.modal-body .salary').text(parent.children()[5].textContent);
+            $('#exampleModal').modal({
+                backdrop: false,
+                keyboard: false,
+                show:true
+            });
+            $(this).removeAttr('disabled');
+        }, 2000);
     });
     $('.datatable').DataTable({
         language: {

@@ -22,8 +22,7 @@
                 <td>2011/04/25</td>
                 <td>$320,800</td>
                 <td>
-                <button type="button" class="btn btn-primary showInfo" 
-                data-toggle="modal" data-target="#exampleModal">
+                <button type="button" class="btn btn-primary showInfo">
                     View
                 </button>  
                 <button type="button" class="btn btn-danger deleteRow" >
@@ -39,8 +38,7 @@
                 <td>2011/07/25</td>
                 <td>$170,750</td>
                 <td>
-                <button type="button" class="btn btn-primary showInfo" 
-                data-toggle="modal" data-target="#exampleModal">
+                <button type="button" class="btn btn-primary showInfo">
                     View
                 </button>  
                 <button type="button" class="btn btn-danger deleteRow" >
@@ -56,8 +54,7 @@
                 <td>2009/01/12</td>
                 <td>$86,000</td>
                 <td>
-                <button type="button" class="btn btn-primary showInfo" 
-                data-toggle="modal" data-target="#exampleModal">
+                <button type="button" class="btn btn-primary showInfo">
                     View
                 </button>   
                 <button type="button" class="btn btn-danger deleteRow" >
